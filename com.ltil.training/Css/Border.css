@@ -1,0 +1,42 @@
+#maindiv{
+    border: 5px solid green;
+    border-radius: 10px 10px 10px 10px;
+    border-left-color: black;
+    border-right-color: red;
+    border-top-color: blue;
+    padding: 30px 30px;
+    width: 100;
+
+    margin: 100px 100px 100px 100px;
+}
+#DivF{
+    border: 5px solid green;
+    border-radius: 10px 10px 10px 10px;
+    border-left-color: black;
+    border-right-color: red;
+    border-top-color: blue;
+    padding: 30px 30px;
+    width: 100;
+   
+
+} 
+#g{
+    display: none;
+}
+
+#DivF:hover #g {
+    display:block;
+}
+table,tr,td{
+    border: 1px solid black ;
+    border-collapse: collapse;
+}
+#d1{
+    color: cornflowerblue;
+    background-color: lightgray;
+
+}
+#d2{
+    color: aqua;
+    background-color: lightgray;
+}

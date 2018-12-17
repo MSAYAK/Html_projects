@@ -1,0 +1,61 @@
+:<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title><Page Title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <form action="#" methods="get">
+        <table>
+            <label for="username">Username</label>
+            <input type="text" name="username" placeholder="username" autocomplete="on">
+            <br>
+            <label for="Gender">Gender</label><br>
+            <input type="radio" name="gender" value="Male">Male<br>
+            <input type="radio" name="gender" value="Female">Female<br>
+            <input type="radio" name="gender" value="Others">Others<br>
+            <br><br>
+            <label for="Address">Address</label>
+            <input type="textarea" name="Address">
+            <br>
+            City:
+            <select name="city" id="city">
+                <option value="Mumbai">Mumbai</option>
+                <option value="India">Mumbai</option>
+                <option value="Chennai">Mumbai</option><br>
+                </select>
+                <br><br>
+                <label for="doj">Date of Joining</label>
+                <input type="date" name="doj" id="doj"><br>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email"><br>
+                Upload file:
+                <input type="file" name="file" value="file">     
+                <label for="Number">Number:</label>
+                <input type="number" pattern="[0-9]{10}" name="Number" ><br>    
+        </table>
+    
+    <audio controls src="SampleAudio_0.4mb.mp3"></audio>
+    <video controls src="abc.mp4"></video>
+    <details>
+  <summary>Copyright 1999-2014.</summary>
+  <p> - by Refsnes Data. All Rights Reserved.</p>
+  <p>All content and graphics on this web site are the property of the company Refsnes Data.</p>
+</details>
+
+        <input type="submit"  value="Submit">
+    </form>
+    <canvas id="myCanvas" width="200" height="100">
+            Soryy not supported</canvas>
+            <script type="text/javascript">
+            var example=document.getElementById("myCanvas");
+            var context=example.getContext("2d");
+            context.fillStyle="rgb(255,0,0)";
+            context.fillRect(30,30,50,50);
+            </script>
+</body>
+</html>
